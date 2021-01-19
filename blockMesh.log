@@ -1,0 +1,69 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : blockMesh
+Date   : Jan 19 2021
+Time   : 10:42:16
+Host   : "ubuntu"
+PID    : 8873
+I/O    : uncollated
+Case   : /media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.001
+    Block 0 cell size :
+        i : 0.0016 .. 0.0016
+        j : 0.0016 .. 0.0016
+        k : 0.0025
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-0.005 -0.016 -0.016) (0.245 0.016 0.016)
+  nPoints: 44541
+  nCells: 40000
+  nFaces: 124400
+  nInternalFaces: 115600
+----------------
+Patches
+----------------
+  patch 0 (start: 115600 size: 8800) name: fixedWalls
+
+End
+

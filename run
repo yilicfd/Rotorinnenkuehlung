@@ -1,0 +1,6 @@
+./Allclean
+blockMesh > blockMesh.log
+surfaceFeatureExtract
+decomposePar
+mpirun -np 4 snappyHexMesh -overwrite -parallel
+reconstructParMesh -constant -mergeTol 1E-06

@@ -1,0 +1,353 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : surfaceFeatureExtract
+Date   : Jan 18 2021
+Time   : 22:08:35
+Host   : "ubuntu"
+PID    : 3622
+I/O    : uncollated
+Case   : /media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading surfaceFeatureExtractDict
+
+Surface            : "rotor.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 315360
+Vertices     : 157682
+Bounding Box : (-6.071532166e-18 -0.01400000043 -0.01400000043) (0.2399999946 0.01400000043 0.01400000043)
+
+
+Constructing feature set from included angle 150
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 0
+    feature edges  : 3600
+    of which
+        region edges   : 0
+        external edges : 2880
+        internal edges : 720
+
+
+Final feature set:
+    points : 3600
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 3600
+    edges  : 3600
+    of which
+        external edges     : 2880
+        internal edges     : 720
+        flat edges         : 0
+        open edges         : 0
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor.extendedFeatureEdgeMesh"
+
+Writing extendedEdgeMesh components to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor"
+Writing convex feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_convexFeaturePts.obj"
+Writing concave feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_concaveFeaturePts.obj"
+Writing mixed feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_mixedFeaturePts.obj"
+Writing mixed feature point structure to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_mixedFeaturePtsStructure.obj"
+Writing external edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_externalEdges.obj"
+Writing internal edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_internalEdges.obj"
+Writing flat edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_flatEdges.obj"
+Writing open edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_openEdges.obj"
+Writing multiple edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_multipleEdges.obj"
+Writing region edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_regionEdges.obj"
+Writing edge directions to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/rotor_edgeDirections.obj"
+
+Writing featureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/triSurface/rotor.eMesh"
+
+Surface            : "movingwall.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 1440
+Vertices     : 1440
+Bounding Box : (0.09799999744 -0.01400000043 -0.01400000043) (0.2399999946 0.01400000043 0.01400000043)
+
+
+Constructing feature set from included angle 150
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 0
+    feature edges  : 1440
+    of which
+        region edges   : 1440
+        external edges : 0
+        internal edges : 0
+
+
+Final feature set:
+    points : 1440
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 1440
+    edges  : 1440
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 1440
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall.extendedFeatureEdgeMesh"
+
+Writing extendedEdgeMesh components to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall"
+Writing convex feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_convexFeaturePts.obj"
+Writing concave feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_concaveFeaturePts.obj"
+Writing mixed feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_mixedFeaturePts.obj"
+Writing mixed feature point structure to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_mixedFeaturePtsStructure.obj"
+Writing external edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_externalEdges.obj"
+Writing internal edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_internalEdges.obj"
+Writing flat edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_flatEdges.obj"
+Writing open edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_openEdges.obj"
+Writing multiple edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_multipleEdges.obj"
+Writing region edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_regionEdges.obj"
+Writing edge directions to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/movingwall_edgeDirections.obj"
+
+Writing featureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/triSurface/movingwall.eMesh"
+
+Surface            : "fixedwall.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 312480
+Vertices     : 156960
+Bounding Box : (0 -0.01400000043 -0.01400000043) (0.1899999976 0.01400000043 0.01400000043)
+
+
+Constructing feature set from included angle 150
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 0
+    feature edges  : 2880
+    of which
+        region edges   : 1440
+        external edges : 720
+        internal edges : 720
+
+
+Final feature set:
+    points : 2880
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 2880
+    edges  : 2880
+    of which
+        external edges     : 720
+        internal edges     : 720
+        flat edges         : 0
+        open edges         : 1440
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall.extendedFeatureEdgeMesh"
+
+Writing extendedEdgeMesh components to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall"
+Writing convex feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_convexFeaturePts.obj"
+Writing concave feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_concaveFeaturePts.obj"
+Writing mixed feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_mixedFeaturePts.obj"
+Writing mixed feature point structure to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_mixedFeaturePtsStructure.obj"
+Writing external edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_externalEdges.obj"
+Writing internal edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_internalEdges.obj"
+Writing flat edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_flatEdges.obj"
+Writing open edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_openEdges.obj"
+Writing multiple edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_multipleEdges.obj"
+Writing region edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_regionEdges.obj"
+Writing edge directions to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/fixedwall_edgeDirections.obj"
+
+Writing featureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/triSurface/fixedwall.eMesh"
+
+Surface            : "inlet.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 720
+Vertices     : 721
+Bounding Box : (-6.071532166e-18 -0.006000000052 -0.006000000052) (-6.071532166e-18 0.006000000052 0.006000000052)
+
+
+Constructing feature set from included angle 150
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 0
+    feature edges  : 720
+    of which
+        region edges   : 720
+        external edges : 0
+        internal edges : 0
+
+
+Final feature set:
+    points : 720
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 720
+    edges  : 720
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 720
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet.extendedFeatureEdgeMesh"
+
+Writing extendedEdgeMesh components to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet"
+Writing convex feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_convexFeaturePts.obj"
+Writing concave feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_concaveFeaturePts.obj"
+Writing mixed feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_mixedFeaturePts.obj"
+Writing mixed feature point structure to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_mixedFeaturePtsStructure.obj"
+Writing external edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_externalEdges.obj"
+Writing internal edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_internalEdges.obj"
+Writing flat edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_flatEdges.obj"
+Writing open edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_openEdges.obj"
+Writing multiple edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_multipleEdges.obj"
+Writing region edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_regionEdges.obj"
+Writing edge directions to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/inlet_edgeDirections.obj"
+
+Writing featureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/triSurface/inlet.eMesh"
+
+Surface            : "bottomwall.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 720
+Vertices     : 721
+Bounding Box : (0.2399999946 -0.01400000043 -0.01400000043) (0.2399999946 0.01400000043 0.01400000043)
+
+
+Constructing feature set from included angle 150
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 0
+    feature edges  : 720
+    of which
+        region edges   : 720
+        external edges : 0
+        internal edges : 0
+
+
+Final feature set:
+    points : 720
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 720
+    edges  : 720
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 720
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall.extendedFeatureEdgeMesh"
+
+Writing extendedEdgeMesh components to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall"
+Writing convex feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_convexFeaturePts.obj"
+Writing concave feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_concaveFeaturePts.obj"
+Writing mixed feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_mixedFeaturePts.obj"
+Writing mixed feature point structure to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_mixedFeaturePtsStructure.obj"
+Writing external edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_externalEdges.obj"
+Writing internal edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_internalEdges.obj"
+Writing flat edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_flatEdges.obj"
+Writing open edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_openEdges.obj"
+Writing multiple edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_multipleEdges.obj"
+Writing region edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_regionEdges.obj"
+Writing edge directions to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/bottomwall_edgeDirections.obj"
+
+Writing featureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/triSurface/bottomwall.eMesh"
+
+Surface            : "outlet.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 1440
+Vertices     : 1440
+Bounding Box : (0.09000000358 -0.01400000043 -0.01400000043) (0.09799999744 0.01400000043 0.01400000043)
+
+
+Constructing feature set from included angle 150
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 0
+    feature edges  : 1440
+    of which
+        region edges   : 1440
+        external edges : 0
+        internal edges : 0
+
+
+Final feature set:
+    points : 1440
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 1440
+    edges  : 1440
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 1440
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet.extendedFeatureEdgeMesh"
+
+Writing extendedEdgeMesh components to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet"
+Writing convex feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_convexFeaturePts.obj"
+Writing concave feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_concaveFeaturePts.obj"
+Writing mixed feature points to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_mixedFeaturePts.obj"
+Writing mixed feature point structure to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_mixedFeaturePtsStructure.obj"
+Writing external edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_externalEdges.obj"
+Writing internal edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_internalEdges.obj"
+Writing flat edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_flatEdges.obj"
+Writing open edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_openEdges.obj"
+Writing multiple edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_multipleEdges.obj"
+Writing region edges to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_regionEdges.obj"
+Writing edge directions to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/extendedFeatureEdgeMesh/outlet_edgeDirections.obj"
+
+Writing featureEdgeMesh to "/media/psf/OpenFoam/Diplomarbeit/Rotorkuehlung_fein/constant/triSurface/outlet.eMesh"
+
+ExecutionTime = 3.93 s  ClockTime = 5 s
+
+End
+
